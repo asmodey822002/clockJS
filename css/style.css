@@ -1,0 +1,37 @@
+.crug{
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	border: 1px solid green;
+	position: relative;
+
+	z-index: 1;
+}
+.chas{
+	width: 10px;
+	height: 250px;
+	background: #272822;
+	position: absolute;
+	transform-origin: 50% 100%;
+	z-index: 2;
+	margin-left: 245px;
+}
+.minuta{
+	width: 6px;
+	height: 250px;
+	background: #0078d7;
+	position: absolute;
+	transform-origin: 50% 100%;
+	z-index: 3;
+	margin-left: 247px;
+}
+.sek{
+	width: 4px;
+	height: 250px;
+	background: #dd5044;
+	position: absolute;
+	transform-origin: 50% 100%;
+	z-index: 3;
+	margin-left: 248px;
+
+}
